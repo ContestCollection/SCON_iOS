@@ -18,34 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="01X-jm-K8a">
-                                <rect key="frame" x="10" y="108" width="394" height="127.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jL7-VF-OjX">
-                                        <rect key="frame" x="10" y="10" width="188" height="107.5"/>
-                                        <string key="text">SKHU
-모든 경진대회를 한 눈에 확인</string>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstItem="jL7-VF-OjX" firstAttribute="leading" secondItem="01X-jm-K8a" secondAttribute="leading" constant="10" id="Ize-75-GZY"/>
-                                    <constraint firstItem="jL7-VF-OjX" firstAttribute="centerY" secondItem="01X-jm-K8a" secondAttribute="centerY" id="UyO-f3-cxc"/>
-                                    <constraint firstItem="jL7-VF-OjX" firstAttribute="top" secondItem="01X-jm-K8a" secondAttribute="top" constant="10" id="cgT-k6-U9K"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jL7-VF-OjX" secondAttribute="trailing" constant="20" symbolic="YES" id="p4a-KR-3Af"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.makesToBounds" value="NO"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ixL-tr-Llm">
-                                <rect key="frame" x="10" y="265.5" width="394" height="536.5"/>
+                                <rect key="frame" x="10" y="430" width="394" height="372"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="mainCell" rowHeight="80" id="uFG-ob-N1Y" customClass="MainTableViewCell" customModule="SCON_iOS" customModuleProvider="target">
@@ -93,28 +67,70 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GSV-Rd-mkP">
+                                <rect key="frame" x="10" y="88" width="395" height="122"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYM-KQ-4MW">
+                                        <rect key="frame" x="10" y="12.5" width="169.5" height="97"/>
+                                        <string key="text">SKHU
+모든 경진대회를 한 눈에 확인</string>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="IYM-KQ-4MW" firstAttribute="leading" secondItem="GSV-Rd-mkP" secondAttribute="leading" constant="10" id="4Iy-yN-ed2"/>
+                                    <constraint firstItem="IYM-KQ-4MW" firstAttribute="top" secondItem="GSV-Rd-mkP" secondAttribute="top" constant="12.5" id="71x-y9-F6H"/>
+                                    <constraint firstItem="IYM-KQ-4MW" firstAttribute="centerY" secondItem="GSV-Rd-mkP" secondAttribute="centerY" id="76m-lf-vGE"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="IYM-KQ-4MW" secondAttribute="trailing" constant="20" symbolic="YES" id="ch2-5W-OOQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.makesToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xrv-Ae-Ml8" customClass="ImageSlideshow" customModule="ImageSlideshow">
+                                <rect key="frame" x="10" y="220" width="394" height="200"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="AXE-Xa-dSj"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.makesToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="bgColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ixL-tr-Llm" secondAttribute="bottom" constant="60" id="2ui-mF-zCC"/>
-                            <constraint firstAttribute="trailing" secondItem="01X-jm-K8a" secondAttribute="trailing" constant="10" id="O9m-ye-B8M"/>
-                            <constraint firstItem="01X-jm-K8a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="cLb-L1-Z9m"/>
-                            <constraint firstItem="01X-jm-K8a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="fAX-xh-Pid"/>
-                            <constraint firstItem="ixL-tr-Llm" firstAttribute="top" secondItem="01X-jm-K8a" secondAttribute="bottom" constant="30" id="hXT-Hj-Gsf"/>
+                            <constraint firstItem="xrv-Ae-Ml8" firstAttribute="top" secondItem="GSV-Rd-mkP" secondAttribute="bottom" constant="10" id="3tt-r7-Rur"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GSV-Rd-mkP" secondAttribute="trailing" constant="9" id="Kc0-rf-J8b"/>
+                            <constraint firstItem="xrv-Ae-Ml8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="aGu-gH-bRJ"/>
+                            <constraint firstItem="GSV-Rd-mkP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="eCZ-pJ-SXO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xrv-Ae-Ml8" secondAttribute="trailing" constant="10" id="lGp-zh-xhq"/>
+                            <constraint firstItem="ixL-tr-Llm" firstAttribute="top" secondItem="xrv-Ae-Ml8" secondAttribute="bottom" constant="10" id="olB-KA-f87"/>
                             <constraint firstItem="ixL-tr-Llm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ukv-RJ-7kG"/>
+                            <constraint firstItem="GSV-Rd-mkP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wXi-Tv-foB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ixL-tr-Llm" secondAttribute="trailing" constant="10" id="xVu-my-rIc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3JO-qf-Dvl"/>
                     <connections>
+                        <outlet property="mainImageSlider" destination="xrv-Ae-Ml8" id="YQn-n8-pru"/>
                         <outlet property="mainTableView" destination="ixL-tr-Llm" id="eXi-Nt-aGf"/>
-                        <outlet property="mainTitleLabel" destination="jL7-VF-OjX" id="TDW-uv-4cj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="352" y="98"/>
+            <point key="canvasLocation" x="350.72463768115944" y="97.767857142857139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vZk-t8-CBN">

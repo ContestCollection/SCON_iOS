@@ -13,6 +13,7 @@ target 'SCON_iOS' do
   pod 'lottie-ios'
   pod 'Kingfisher'
   pod 'Firebase/Auth'
+  pod 'ImageSlideshow', '~> 1.9.0'
 
 
 end

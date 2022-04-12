@@ -6,7 +6,7 @@
 //
 import UIKit
 import JJFloatingActionButton
-
+import ImageSlideshow
 
 
 class HomeViewController: UIViewController {
@@ -14,15 +14,27 @@ class HomeViewController: UIViewController {
     @IBOutlet private weak var mainTitleLabel: UILabel!
     @IBOutlet private weak var mainTableView: UITableView!
     
+    @IBOutlet weak var mainImageSlider: ImageSlideshow!
+    
     private var contestSortList: [ContestList.ContestSort] = []
+    private let sliderImageSources = [
+        ImageSource(image: UIImage(named: "main_1")!),
+        ImageSource(image: UIImage(named: "main_2")!),
+        ImageSource(image: UIImage(named: "main_3")!),
+        ImageSource(image: UIImage(named: "main_4")!),
+        ImageSource(image: UIImage(named: "main_5")!)
+    ]
     
-    
+    //MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         bindData()
         setupLayout()
+        setupSliderImage()
+        
     }
-    
+   
+    //MARK: - private func
     private func setupLayout() {
         navigationController?.customNavigation()
         mainTableView.delegate = self
@@ -33,6 +45,11 @@ class HomeViewController: UIViewController {
     }
 
     
+    private func setupSliderImage(){
+        mainImageSlider.setImageInputs(sliderImageSources)
+        mainImageSlider.contentScaleMode = .scaleToFill
+        mainImageSlider.slideshowInterval = 2
+    }
     
 
     private func bindData() {
