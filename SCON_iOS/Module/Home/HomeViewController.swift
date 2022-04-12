@@ -74,6 +74,11 @@ class HomeViewController: UIViewController {
     private func configureFloatingButton(){
         let actionButton = JJFloatingActionButton()
         actionButton.buttonColor = UIColor(named: "darkYellow") ?? .yellow
+        //0
+        actionButton.addItem(title: "S_CON_WEB", image: UIImage(systemName: "link")) { item in
+            let title = item.titleLabel.text
+            self.urlToWebView("https://s-con.vercel.app/", title: title ?? "")
+        }
         //1
         actionButton.addItem(title: "작품 추가", image: UIImage(systemName: "folder.badge.plus")?.withRenderingMode(.alwaysTemplate)) { item in
             let title = item.titleLabel.text
@@ -87,8 +92,10 @@ class HomeViewController: UIViewController {
         }
         //3
         actionButton.addItem(title: "개발자 소개", image: UIImage(systemName: "person.fill")) { item in
-          // do something
+            guard let developerVC = self.storyboard?.instantiateViewController(withIdentifier: "DeveloperViewController") as? DeveloperViewController else { return }
+            self.navigationController?.pushViewController(developerVC, animated: true)
         }
+
         view.addSubview(actionButton)
         actionButton.translatesAutoresizingMaskIntoConstraints = false
         actionButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16).isActive = true
