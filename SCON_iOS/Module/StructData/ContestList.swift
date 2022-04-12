@@ -13,5 +13,6 @@ struct ContestList: Codable {
     struct ContestSort: Codable {
         let id: Int
         let name: String
+        let icon: String
     }
 }

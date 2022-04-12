@@ -94,9 +94,9 @@ extension HomeViewController: UITableViewDataSource{
         let data = contestSortList[indexPath.row]
         cell.titleLabel.text = data.name
         //이미지 설정
-//        let image = UIImage(systemName: data.systemImg)?.withTintColor(data.imgColor, renderingMode: .alwaysOriginal)
-//        cell.imgView.image = image
-//
+        let image = UIImage(named: "\(data.icon)")
+        cell.imgView.image = image
+
         return cell
     }
     
