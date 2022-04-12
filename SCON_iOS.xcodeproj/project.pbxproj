@@ -14,6 +14,7 @@
 		6C7C1C86280327E300658058 /* PrizeList:id=0,year=2019.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7C1C85280327E300658058 /* PrizeList:id=0,year=2019.json */; };
 		6C7C1C8A2803285000658058 /* PrizeList:id=1,year=2021.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7C1C892803285000658058 /* PrizeList:id=1,year=2021.json */; };
 		6C7C1C8C28032B6200658058 /* PrizeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C1C8B28032B6200658058 /* PrizeList.swift */; };
+		6C8B3FC12805438F003E18CC /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B3FC02805438F003E18CC /* DeveloperViewController.swift */; };
 		6CAAB1C927F5EF7D003C963F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAAB1C827F5EF7D003C963F /* WebKit.framework */; };
 		A61054E2E08DA02CF2FF8028 /* Pods_SCON_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF6D4C9A2D2A9CD4AA36747 /* Pods_SCON_iOS.framework */; };
 		FC56256A2801685700DF003A /* APIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5625692801685700DF003A /* APIKit.swift */; };
@@ -60,6 +61,7 @@
 		6C7C1C85280327E300658058 /* PrizeList:id=0,year=2019.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "PrizeList:id=0,year=2019.json"; sourceTree = "<group>"; };
 		6C7C1C892803285000658058 /* PrizeList:id=1,year=2021.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "PrizeList:id=1,year=2021.json"; sourceTree = "<group>"; };
 		6C7C1C8B28032B6200658058 /* PrizeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeList.swift; sourceTree = "<group>"; };
+		6C8B3FC02805438F003E18CC /* DeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
 		6CAAB1C827F5EF7D003C963F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		7E49E59B0A8C5CC6826F98DD /* Pods-SCON_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCON_iOS.release.xcconfig"; path = "Target Support Files/Pods-SCON_iOS/Pods-SCON_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		FC5625692801685700DF003A /* APIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKit.swift; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				FCC2C8FF28015BBF0098B865 /* HomeViewController.swift */,
+				6C8B3FC02805438F003E18CC /* DeveloperViewController.swift */,
 				FCC2C90028015BBF0098B865 /* Home.storyboard */,
 				FCC2C90228015BBF0098B865 /* MainTableViewCell.swift */,
 			);
@@ -468,6 +471,7 @@
 				6C7C1C592802F09A00658058 /* ContestYear.swift in Sources */,
 				FCC2C94828015BBF0098B865 /* AppDelegate.swift in Sources */,
 				FCC2C92928015BBF0098B865 /* HomeViewController.swift in Sources */,
+				6C8B3FC12805438F003E18CC /* DeveloperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

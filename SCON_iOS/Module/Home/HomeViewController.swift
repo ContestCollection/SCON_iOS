@@ -6,7 +6,7 @@
 //
 import UIKit
 import JJFloatingActionButton
-
+import ImageSlideshow
 
 
 class HomeViewController: UIViewController {
@@ -14,15 +14,27 @@ class HomeViewController: UIViewController {
     @IBOutlet private weak var mainTitleLabel: UILabel!
     @IBOutlet private weak var mainTableView: UITableView!
     
+    @IBOutlet weak var mainImageSlider: ImageSlideshow!
+    
     private var contestSortList: [ContestList.ContestSort] = []
+    private let sliderImageSources = [
+        ImageSource(image: UIImage(named: "main_1")!),
+        ImageSource(image: UIImage(named: "main_2")!),
+        ImageSource(image: UIImage(named: "main_3")!),
+        ImageSource(image: UIImage(named: "main_4")!),
+        ImageSource(image: UIImage(named: "main_5")!)
+    ]
     
-    
+    //MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         bindData()
         setupLayout()
+        setupSliderImage()
+        
     }
-    
+   
+    //MARK: - private func
     private func setupLayout() {
         navigationController?.customNavigation()
         mainTableView.delegate = self
@@ -33,6 +45,11 @@ class HomeViewController: UIViewController {
     }
 
     
+    private func setupSliderImage(){
+        mainImageSlider.setImageInputs(sliderImageSources)
+        mainImageSlider.contentScaleMode = .scaleToFill
+        mainImageSlider.slideshowInterval = 2
+    }
     
 
     private func bindData() {
@@ -57,6 +74,11 @@ class HomeViewController: UIViewController {
     private func configureFloatingButton(){
         let actionButton = JJFloatingActionButton()
         actionButton.buttonColor = UIColor(named: "darkYellow") ?? .yellow
+        //0
+        actionButton.addItem(title: "S_CON_WEB", image: UIImage(systemName: "link")) { item in
+            let title = item.titleLabel.text
+            self.urlToWebView("https://s-con.vercel.app/", title: title ?? "")
+        }
         //1
         actionButton.addItem(title: "작품 추가", image: UIImage(systemName: "folder.badge.plus")?.withRenderingMode(.alwaysTemplate)) { item in
             let title = item.titleLabel.text
@@ -70,8 +92,10 @@ class HomeViewController: UIViewController {
         }
         //3
         actionButton.addItem(title: "개발자 소개", image: UIImage(systemName: "person.fill")) { item in
-          // do something
+            guard let developerVC = self.storyboard?.instantiateViewController(withIdentifier: "DeveloperViewController") as? DeveloperViewController else { return }
+            self.navigationController?.pushViewController(developerVC, animated: true)
         }
+
         view.addSubview(actionButton)
         actionButton.translatesAutoresizingMaskIntoConstraints = false
         actionButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16).isActive = true
@@ -94,9 +118,9 @@ extension HomeViewController: UITableViewDataSource{
         let data = contestSortList[indexPath.row]
         cell.titleLabel.text = data.name
         //이미지 설정
-//        let image = UIImage(systemName: data.systemImg)?.withTintColor(data.imgColor, renderingMode: .alwaysOriginal)
-//        cell.imgView.image = image
-//
+        let image = UIImage(named: "\(data.icon)")
+        cell.imgView.image = image
+
         return cell
     }
     

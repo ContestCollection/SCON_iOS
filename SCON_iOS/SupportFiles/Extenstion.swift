@@ -51,6 +51,10 @@ extension UIView{
         layer.shadowRadius = 5
         layer.shadowOpacity = 0.5
     }
+    func makeRounded() {
+        layer.cornerRadius = (self.frame.width / 2) //instead of let radius = CGRectGetWidth(self.frame) / 2
+        layer.masksToBounds = true
+    }
 }
 
 extension UINavigationController{
