@@ -4,9 +4,6 @@ PODS:
     - FirebaseAuth (~> 8.14.0)
   - Firebase/CoreOnly (8.14.0):
     - FirebaseCore (= 8.14.0)
-  - Firebase/Database (8.14.0):
-    - Firebase/CoreOnly
-    - FirebaseDatabase (~> 8.14.0)
   - FirebaseAuth (8.14.0):
     - FirebaseCore (~> 8.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
@@ -21,9 +18,6 @@ PODS:
     - GoogleUtilities/Environment (~> 7.7)
     - GoogleUtilities/Logger (~> 7.7)
     - nanopb (~> 2.30908.0)
-  - FirebaseDatabase (8.14.0):
-    - FirebaseCore (~> 8.0)
-    - leveldb-library (~> 1.22)
   - GoogleDataTransport (9.1.2):
     - GoogleUtilities/Environment (~> 7.2)
     - nanopb (~> 2.30908.0)
@@ -44,9 +38,11 @@ PODS:
   - GoogleUtilities/Reachability (7.7.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.7.1)
+  - ImageSlideshow (1.9.2):
+    - ImageSlideshow/Core (= 1.9.2)
+  - ImageSlideshow/Core (1.9.2)
   - JJFloatingActionButton (2.5.0)
   - Kingfisher (7.2.0)
-  - leveldb-library (1.22.1)
   - lottie-ios (3.3.0)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
@@ -61,7 +57,7 @@ PODS:
 
 DEPENDENCIES:
   - Firebase/Auth
-  - Firebase/Database
+  - ImageSlideshow (~> 1.9.0)
   - JJFloatingActionButton
   - Kingfisher
   - lottie-ios
@@ -74,13 +70,12 @@ SPEC REPOS:
     - FirebaseAuth
     - FirebaseCore
     - FirebaseCoreDiagnostics
-    - FirebaseDatabase
     - GoogleDataTransport
     - GoogleUtilities
     - GTMSessionFetcher
+    - ImageSlideshow
     - JJFloatingActionButton
     - Kingfisher
-    - leveldb-library
     - lottie-ios
     - nanopb
     - Pageboy
@@ -93,13 +88,12 @@ SPEC CHECKSUMS:
   FirebaseAuth: c5fde343630090253d3af7e2d35697b414b40202
   FirebaseCore: b84a44ee7ba999e0f9f76d198a9c7f60a797b848
   FirebaseCoreDiagnostics: fd0c8490f34287229c1d6c103d3a55f81ec85712
-  FirebaseDatabase: 8bfbe7bb8d355f9727507bcf4a2116cb3aabdc5e
   GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
   GTMSessionFetcher: 4577a4cc914a5a07c40a8a0ad0acc22080418c2d
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
   JJFloatingActionButton: fdc3aefb0f28f04d0f988fa25d5fac97028a9ea7
   Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
-  leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
@@ -107,6 +101,6 @@ SPEC CHECKSUMS:
   Tabman: 447a50447ed2869c39ab3b1a779327e43e067c4e
   youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
 
-PODFILE CHECKSUM: b2a3e5c082779b542681dd80e9631eb87597b4bc
+PODFILE CHECKSUM: b477c4fcd2d0c17693577f2765d3a31eceeac8fe
 
 COCOAPODS: 1.11.3

@@ -1,17 +1,67 @@
 {
-    "data": [
+    "headerList": [
         {
             "id": 0,
-            "name": "IT"
+            "prizeHeader": "대상",
+            "prizeListData": [
+                {
+                    "id": 0,
+                    "name": "BOOKREST",
+                    "subTitle": "실시간 미세먼지 및 공기질 측정기",
+                    "img": "https://i.postimg.cc/15JwH1yT/2022-04-07-10-20-33.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 대상, 인기상",
+                        "summary": "Air-Alarm은 미세먼지, Co2, 온도, 습도를 측정해주는 공기질 측정기입니다. \n기상청 공기질 데이터까지 제공하고 있어, 우리집 공기질과 우리 동네 공기질을 비교하여 볼 수도 있습니다. \n 기존의 공기질 측정기에 비해 저렴한 가격과 다양한 기능으로 차별화를 이룬 제품입니다.",
+                        "people": "유하성, 김지인, 윤다혜, 한슬희",
+                        "calendar": "2021.4 ~ 5: 아이디어 회의 \n 6: 페이지 및 DB 구상\n 7 ~ 8: 개발 및 배포",
+                        "gitLink": "https://github.com/SKHU-Likelion-9th/BOOKREST",
+                        "youtubeLink": "VpKfXxeuBDQ",
+                        "serviceLink": "https://sharebookrest.herokuapp.com/",
+                        "skills": "HTML, JavaScript, Django, SQLite, Heroku"
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "Air-Alarm",
+                    "subTitle": "실시간 미세먼지 및 공기질 측정기",
+                    "img": "https://i.postimg.cc/15JwH1yT/2022-04-07-10-20-33.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 대상 인기상",
+                        "summary": "Air-Alarm은 미세먼지, Co2, 온도, 습도를 측정해주는 공기질 측정기입니다. 기상청 공기질 데이터까지 제공하고 있어, 우리집 공기질과 우리 동네 공기질을 비교하여 볼 수도 있습니다. 기존의 공기질 측정기에 비해 저렴한 가격과 다양한 기능으로 차별화를 이룬 제품입니다.",
+                        "people": "유하성, 김지인, 윤다혜, 한슬희",
+                        "calendar": "2021.4 ~ 5: 아이디어 회의 \n 6: 페이지 및 DB 구상\n 7 ~ 8: 개발 및 배포",
+                        "gitLink": "https://github.com/SKHU-Likelion-9th/BOOKREST",
+                        "youtubeLink": "VpKfXxeuBDQ",
+                        "serviceLink": "https://sharebookrest.herokuapp.com/",
+                        "skills": "HTML, JavaScript, Django, SQLite, Heroku"
+                    }
+                }
+            ]
         },
         {
             "id": 1,
-            "name": "MEDIA"
-        },
-        {
-            "id": 2,
-            "name": "SW"
+            "prizeHeader": "금상",
+            "prizeListData": [
+                {
+                    "id": 0,
+                    "name": "Air-Alarm",
+                    "subTitle": "실시간 미세먼지 및 공기질 측정기",
+                    "img": "https://i.postimg.cc/15JwH1yT/2022-04-07-10-20-33.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 대상 sdfsdf인기상",
+                        "summary": "Air-Alarm은 미세먼지, Co2, 온도, 습도를 측정해주는 공기질 측정기입니다. 기상청 공기질 데이터까지 제공하고 있어, 우리집 공기질과 우리 동네 공기질을 비교하여 볼 수도 있습니다. 기존의 공기질 측정기에 비해 저렴한 가격과 다양한 기능으로 차별화를 이룬 제품입니다.",
+                        "people": "유하성, 김지인, 윤다혜, 한슬희",
+                        "calendar": "2021.4 ~ 5: 아이디어 회의 \n 6: 페이지 및 DB 구상\n 7 ~ 8: 개발 및 배포",
+                        "gitLink": "https://github.com/SKHU-Likelion-9th/BOOKREST",
+                        "youtubeLink": "VpKfXxeuBDQ",
+                        "serviceLink": "https://sharebookrest.herokuapp.com/",
+                        "skills": "HTML, JavaScript, Django, SQLite, Heroku"
+                    }
+                }
+            ]
+            
         }
     ]
     
 }
+

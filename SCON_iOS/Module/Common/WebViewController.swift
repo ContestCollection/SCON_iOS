@@ -18,7 +18,11 @@ class WebViewController: UIViewController {
         super.viewDidLoad()
         self.navigationController?.customNavigation()
         self.navigationItem.title = navigationTItle
-        guard let url = URL(string: url) else { return }
+        uploadWebView(urlParam: url)
+    }
+    
+    func uploadWebView(urlParam: String){
+        guard let url = URL(string: urlParam) else { return }
         let request = URLRequest(url: url)
         webView.load(request)
     }
