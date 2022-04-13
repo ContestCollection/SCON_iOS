@@ -2,66 +2,25 @@
     "headerList": [
         {
             "id": 0,
-            "prizeHeader": "대상",
+            "prizeHeader": "동상",
             "prizeListData": [
                 {
                     "id": 0,
-                    "name": "BOOKREST",
-                    "subTitle": "실시간 미세먼지 및 공기질 측정기",
-                    "img": "https://i.postimg.cc/15JwH1yT/2022-04-07-10-20-33.png",
+                    "name": "Pro-Miss",
+                    "subTitle": "약속 관리 어플리케이션",
+                    "img": "https://i.postimg.cc/5yrRzgK4/2.png",
                     "infoDetail": {
-                        "awardDetail": "2021년 대상, 인기상",
-                        "summary": "Air-Alarm은 미세먼지, Co2, 온도, 습도를 측정해주는 공기질 측정기입니다. \n기상청 공기질 데이터까지 제공하고 있어, 우리집 공기질과 우리 동네 공기질을 비교하여 볼 수도 있습니다. \n기존의 공기질 측정기에 비해 저렴한 가격과 다양한 기능으로 차별화를 이룬 제품입니다.",
-                        "people": "유하성, 김지인, 윤다혜, 한슬희",
-                        "calendar": "2021.4 ~ 5: 아이디어 회의 \n 6: 페이지 및 DB 구상\n 7 ~ 8: 개발 및 배포",
-                        "gitLink": "https://github.com/SKHU-Likelion-9th/BOOKREST",
-                        "youtubeLink": "VpKfXxeuBDQ",
-                        "serviceLink": "https://sharebookrest.herokuapp.com/",
-                        "skills": ["HTML", "JavaScript", "Django", "SQLite", "Heroku"]
-                    }
-                },
-                {
-                    "id": 1,
-                    "name": "Air-Alarm",
-                    "subTitle": "실시간 미세먼지 및 공기질 측정기",
-                    "img": "https://i.postimg.cc/15JwH1yT/2022-04-07-10-20-33.png",
-                    "infoDetail": {
-                        "awardDetail": "2021년 대상 인기상",
-                        "summary": "Air-Alarm은 미세먼지, Co2, 온도, 습도를 측정해주는 공기질 측정기입니다. 기상청 공기질 데이터까지 제공하고 있어, 우리집 공기질과 우리 동네 공기질을 비교하여 볼 수도 있습니다. 기존의 공기질 측정기에 비해 저렴한 가격과 다양한 기능으로 차별화를 이룬 제품입니다.",
-                        "people": "유하성, 김지인, 윤다혜, 한슬희",
-                        "calendar": "2021.4 ~ 5: 아이디어 회의 \n 6: 페이지 및 DB 구상\n 7 ~ 8: 개발 및 배포",
-                        "gitLink": "https://github.com/SKHU-Likelion-9th/BOOKREST",
-                        "youtubeLink": "VpKfXxeuBDQ",
-                        "serviceLink": "https://sharebookrest.herokuapp.com/",
-                        "skills": ["HTML", "JavaScript", "Django", "SQLite", "Heroku"]
+                        "awardDetail": "2019년 동상",
+                        "summary": "프로미스는 약속이 많은 현대인들을 위한 약속관리 어플리케이션입니다.\\n약속장소까지의 직선거리를 기반으로 벌금을 매겨 지각을 방지하고, 다음 약속을 알려주는 알림 서비스 등을 지원합니다.",
+                        "people": "임수현, 양민욱",
+                        "calendar": "미등록",
+                        "gitLink": "미등록",
+                        "youtubeLink": "미등록",
+                        "serviceLink": "미등록",
+                        "skills": "미등록"
                     }
                 }
             ]
-        },
-        {
-            "id": 1,
-            "prizeHeader": "금상",
-            "prizeListData": [
-                {
-                    "id": 0,
-                    "name": "Air-Alarm",
-                    "subTitle": "실시간 미세먼지 및 공기질 측정기",
-                    "img": "https://i.postimg.cc/15JwH1yT/2022-04-07-10-20-33.png",
-                    "infoDetail": {
-                        "awardDetail": "2021년 대상 인기상",
-                        "summary": "Air-Alarm은 미세먼지, Co2, 온도, 습도를 측정해주는 공기질 측정기입니다. 기상청 공기질 데이터까지 제공하고 있어, 우리집 공기질과 우리 동네 공기질을 비교하여 볼 수도 있습니다. 기존의 공기질 측정기에 비해 저렴한 가격과 다양한 기능으로 차별화를 이룬 제품입니다.",
-                        "people": "유하성, 김지인, 윤다혜, 한슬희",
-                        "calendar": "2021.4 ~ 5: 아이디어 회의 \n 6: 페이지 및 DB 구상\n 7 ~ 8: 개발 및 배포",
-                        "gitLink": "https://github.com/SKHU-Likelion-9th/BOOKREST",
-                        "youtubeLink": "VpKfXxeuBDQ",
-                        "serviceLink": "https://sharebookrest.herokuapp.com/",
-                        "skills": ["HTML", "JavaScript", "Django", "SQLite", "Heroku"]
-                    }
-                }
-            ]
-            
         }
     ]
-    
 }
-

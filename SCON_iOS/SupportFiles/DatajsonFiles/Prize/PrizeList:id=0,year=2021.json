@@ -6,34 +6,18 @@
             "prizeListData": [
                 {
                     "id": 0,
-                    "name": "BOOKREST",
-                    "subTitle": "실시간 미세먼지 및 공기질 측정기",
-                    "img": "https://i.postimg.cc/15JwH1yT/2022-04-07-10-20-33.png",
-                    "infoDetail": {
-                        "awardDetail": "2021년 대상, 인기상",
-                        "summary": "Air-Alarm은 미세먼지, Co2, 온도, 습도를 측정해주는 공기질 측정기입니다. \n기상청 공기질 데이터까지 제공하고 있어, 우리집 공기질과 우리 동네 공기질을 비교하여 볼 수도 있습니다. \n 기존의 공기질 측정기에 비해 저렴한 가격과 다양한 기능으로 차별화를 이룬 제품입니다.",
-                        "people": "유하성, 김지인, 윤다혜, 한슬희",
-                        "calendar": "2021.4 ~ 5: 아이디어 회의 \n 6: 페이지 및 DB 구상\n 7 ~ 8: 개발 및 배포",
-                        "gitLink": "https://github.com/SKHU-Likelion-9th/BOOKREST",
-                        "youtubeLink": "VpKfXxeuBDQ",
-                        "serviceLink": "https://sharebookrest.herokuapp.com/",
-                        "skills": "HTML, JavaScript, Django, SQLite, Heroku"
-                    }
-                },
-                {
-                    "id": 1,
                     "name": "Air-Alarm",
                     "subTitle": "실시간 미세먼지 및 공기질 측정기",
                     "img": "https://i.postimg.cc/15JwH1yT/2022-04-07-10-20-33.png",
                     "infoDetail": {
                         "awardDetail": "2021년 대상 인기상",
                         "summary": "Air-Alarm은 미세먼지, Co2, 온도, 습도를 측정해주는 공기질 측정기입니다. 기상청 공기질 데이터까지 제공하고 있어, 우리집 공기질과 우리 동네 공기질을 비교하여 볼 수도 있습니다. 기존의 공기질 측정기에 비해 저렴한 가격과 다양한 기능으로 차별화를 이룬 제품입니다.",
-                        "people": "유하성, 김지인, 윤다혜, 한슬희",
-                        "calendar": "2021.4 ~ 5: 아이디어 회의 \n 6: 페이지 및 DB 구상\n 7 ~ 8: 개발 및 배포",
-                        "gitLink": "https://github.com/SKHU-Likelion-9th/BOOKREST",
-                        "youtubeLink": "VpKfXxeuBDQ",
-                        "serviceLink": "https://sharebookrest.herokuapp.com/",
-                        "skills": "HTML, JavaScript, Django, SQLite, Heroku"
+                        "people": "손창하, 고병우, 김하은, 박진희",
+                        "calendar": "2021.6: 아이디어 회의, 7 ~ 8: 개발 및 배포",
+                        "gitLink": "https://github.com/Air-Alarm",
+                        "youtubeLink": "v_4Lv-mid30",
+                        "serviceLink": "미등록",
+                        "skills": "Flask, SQLite, Swift"
                     }
                 }
             ]
@@ -44,24 +28,135 @@
             "prizeListData": [
                 {
                     "id": 0,
-                    "name": "Air-Alarm",
-                    "subTitle": "실시간 미세먼지 및 공기질 측정기",
-                    "img": "https://i.postimg.cc/15JwH1yT/2022-04-07-10-20-33.png",
+                    "name": "청약패스",
+                    "subTitle": "청약자격 여부 점검 서비스",
+                    "img": "https://i.postimg.cc/76Fh75bG/image.png",
                     "infoDetail": {
-                        "awardDetail": "2021년 대상 sdfsdf인기상",
-                        "summary": "Air-Alarm은 미세먼지, Co2, 온도, 습도를 측정해주는 공기질 측정기입니다. 기상청 공기질 데이터까지 제공하고 있어, 우리집 공기질과 우리 동네 공기질을 비교하여 볼 수도 있습니다. 기존의 공기질 측정기에 비해 저렴한 가격과 다양한 기능으로 차별화를 이룬 제품입니다.",
+                        "awardDetail": "2021년 금상 인기상",
+                        "summary": "청약패스는 '청약'과 '통과'의 합성어로, 복잡한 청약 시스템의 틀을 깨고 청약패스의 자격 점검 시스템을 통해 부적격 없이 한번에 청약에 당첨되었으면 하는 바람이 깃든 팀, 서비스명입니다. \\n 핵심 기능으로는 청약 자격 여부 점검, 가/배점계산, 부적격 사례 및 FAQ제공이 있습니다.",
+                        "people": "한지혜, 신수연, 박지우, 이지은",
+                        "calendar": "2021.3: 청약 제도 학습\\n 2021.4: 프로젝트 진행 계획, 기능 및 와이어프레임 제작 \\n 2021.5: 백: 데이터베이스 구축, 프론트: 디자인 설계\\n 2021.6~8: 개발 \\n 2021.9~11: 테스트 진행, 유지보수",
+                        "gitLink": "https://github.com/devUnnies/chungyakpass",
+                        "youtubeLink": "l2FzUBb-25Y",
+                        "serviceLink": "미등록",
+                        "skills": "SpringBoot, SpringDataJpa, Spring Security, React, axios"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "prizeHeader": "은상",
+            "prizeListData": [
+                {
+                    "id": 0,
+                    "name": "BOOKREST",
+                    "subTitle": "교내 전공서적 대여서비스",
+                    "img": "https://user-images.githubusercontent.com/63100352/161198107-0e5ee70d-4949-45ec-b331-8cedf9d8be87.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 은상 인기상",
+                        "summary": "BOOKREST는 전공서적을 대여해주는 서비스입니다. 매 학기마다 전공책을 새로 구매하시나요? 구매하셨다면 가격이 부담스럽지 않으셨나요? BOOKREST는 대학생의, 대학생에 의한, 대학생들을 위해 만들었습니다. BOOK + FOREST = 전공서적을 무료로 쉽게 대여할 수 있는 공유의 숲이라는 뜻으로 저희 BOOKREST에서 쉽고 편하게 원하는 책을 대여하시길 바랍니다. 💡 모든 학과, 모든 학년, 모든 과목의 학기마다 필요한 전공서적을 교내에 여러권 비치하여 책 정보와 수업 정보까지 BOOKREST에서 확인 가능합니다. 👊🏻 BOOKREST는 대여비용이 무료입니다. 일부 보증금 제도를 통해 책의 분실 및 손상 규정에 따라 비용이 청구 될 수 있지만 대여기간과 규정을 잘 지킨다면 누구나 무료로 이용할 수 있습니다.",
                         "people": "유하성, 김지인, 윤다혜, 한슬희",
-                        "calendar": "2021.4 ~ 5: 아이디어 회의 \n 6: 페이지 및 DB 구상\n 7 ~ 8: 개발 및 배포",
+                        "calendar": "2021.4 ~ 5: 아이디어 회의, 6: 페이지 및 DB 구상, 7 ~ 8: 개발 및 배포",
                         "gitLink": "https://github.com/SKHU-Likelion-9th/BOOKREST",
                         "youtubeLink": "VpKfXxeuBDQ",
                         "serviceLink": "https://sharebookrest.herokuapp.com/",
                         "skills": "HTML, JavaScript, Django, SQLite, Heroku"
                     }
+                },
+                {
+                    "id": 1,
+                    "name": "유저 트레이더스",
+                    "subTitle": "중고 거래 서비스",
+                    "img": "https://i.postimg.cc/pdr9zbVj/image.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 은상",
+                        "summary": "회원이라는 의미의 user + 상인, 거래라는 의미의 Traders를 합쳐 사용자나 회원이 직접 상인이 되어 거래한다라는 의미를 가진 성공회대 중고거래 서비스 유저 트레이더스입니다.",
+                        "people": "정재빈, 박형준",
+                        "calendar": "미등록",
+                        "gitLink": "미등록",
+                        "youtubeLink": "5fMI9WA99kk",
+                        "serviceLink": "http://eks-work-frontend-skhu.s3-website.ap-northeast-2.amazonaws.com/",
+                        "skills": "Spring Boot, JPA, Jpql, Querydsl"
+                    }
                 }
             ]
-            
+        },
+        {
+            "id": 3,
+            "prizeHeader": "동상",
+            "prizeListData": [
+                {
+                    "id": 0,
+                    "name": "GITY",
+                    "subTitle": "유튜브 이미지 크롤링 시스템",
+                    "img": "https://i.postimg.cc/YSPvxnjs/image.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 동상",
+                        "summary": "최근 인공지능이 큰 이슈로 자리잡고있습니다. 이 인공지능을 학습시키기 위해서는 데이터가 필수적인데, 여러 인공지능들이 데이터 부족으로 고충을 겪고 있습니다. GITY는 유튜브를 이용해 이미지 데이터를 가져와 데이터로 제공해주어 데이터 부족을 해결하고자 합니다.",
+                        "people": "정민혁, 이제헌, 박결",
+                        "calendar": "미등록",
+                        "gitLink": "https://github.com/kyeul611/gity",
+                        "youtubeLink": "rQX4ZPzPiqA",
+                        "serviceLink": "미등록",
+                        "skills": "TensorFlow, YOLO, Selenium"
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "나만의 웹 다이어리",
+                    "subTitle": "기록하는 나만의 웹 다이어리",
+                    "img": "https://i.postimg.cc/9MJw7mZy/image.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 동상",
+                        "summary": "하루 일정, 일주일 계획, 시간표, 버킷 리스트, 일기, 메모장을 기록하는 나만의 웹 다이어리입니다. 실물 다이어리는 잊어버리거나, 아이디어가 떠올라도 다이어리를 찾다가 잊어버리는 아쉬움을 해결하기 위해 만들게 된 프로젝트입니다.",
+                        "people": "김보미, 임수빈",
+                        "calendar": "2021.3: 주제 설정 및 구현, 4~6: 구현, 9: 코드 보완 및 정리",
+                        "gitLink": "미등록",
+                        "youtubeLink": "D0JQ6j1O6L8",
+                        "serviceLink": "미등록",
+                        "skills": "SpringBoot, JSP, MySQL"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "prizeHeader": "장려상",
+            "prizeListData": [
+                {
+                    "id": 0,
+                    "name": "컴비",
+                    "subTitle": "인공지능 수화 번역 시스템",
+                    "img": "https://i.postimg.cc/W1XFdbVj/image.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 장려상",
+                        "summary": "인공지능이 크게 발달해 많은 제품에 인공지능이 탑재되고 있지만, 장애인을 위한 제품은 아직도 부족한 편입니다. 컴비는 청각 장애인과 비장애인 간의 의사소통의 벽을 허물고자 개발된 실시간 수어 인식 시스템입니다.",
+                        "people": "김기범",
+                        "calendar": "미등록",
+                        "gitLink": "https://github.com/gibum1228/ComputerVision",
+                        "youtubeLink": "Nf7Rrg3ASh0",
+                        "serviceLink": "미등록",
+                        "skills": "Open CV, CUDA"
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "Gifty",
+                    "subTitle": "기프티콘 관리 앱",
+                    "img": "https://i.postimg.cc/dQb8F1sx/image.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 장려상",
+                        "summary": "다들 한번쯤은 기프티콘으로 선물을 주거나 받아본 경험이 있을 것입니다. 카카오톡 선물하기를 통해 선물을 하게 되면 카카오톡 보관함에 저장이 되어 관리가 가능하지만, 내가 사용하지 않는 기프티콘을 양도하거나, 카카오톡이 아닌 다른 플랫폼에서 생성된 기프티콘은 캡처된 사진으로 저장하는 경우가 많습니다. 이런 경우 갤러리를 하나하나 찾아봐야하는 불편함이 있습니다. Gifty는 이러한 불편함을 해결하고자 기획된 어플리케이션입니다.",
+                        "people": "주동석",
+                        "calendar": "2021.9~10: 개발",
+                        "gitLink": "미등록",
+                        "youtubeLink": "A_oeMPVDJfY",
+                        "serviceLink": "미등록",
+                        "skills": "Apple Vision Framework"
+                    }
+                }
+            ]
         }
     ]
-    
 }
-

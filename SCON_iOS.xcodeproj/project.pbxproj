@@ -16,6 +16,10 @@
 		6C7C1C8C28032B6200658058 /* PrizeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C1C8B28032B6200658058 /* PrizeList.swift */; };
 		6C8B3FC12805438F003E18CC /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B3FC02805438F003E18CC /* DeveloperViewController.swift */; };
 		6CAAB1C927F5EF7D003C963F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAAB1C827F5EF7D003C963F /* WebKit.framework */; };
+		6CFCF69F28069F8A003D3DA1 /* PrizeList:id=2,year=2020.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCF69B28069F8A003D3DA1 /* PrizeList:id=2,year=2020.json */; };
+		6CFCF6A028069F8A003D3DA1 /* PrizeList:id=2,year=2019.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCF69C28069F8A003D3DA1 /* PrizeList:id=2,year=2019.json */; };
+		6CFCF6A128069F8A003D3DA1 /* PrizeList:id=2,year=2021.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCF69D28069F8A003D3DA1 /* PrizeList:id=2,year=2021.json */; };
+		6CFCF6A228069F8A003D3DA1 /* PrizeList:id=1,year=2020.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCF69E28069F8A003D3DA1 /* PrizeList:id=1,year=2020.json */; };
 		A61054E2E08DA02CF2FF8028 /* Pods_SCON_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF6D4C9A2D2A9CD4AA36747 /* Pods_SCON_iOS.framework */; };
 		FC56256A2801685700DF003A /* APIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5625692801685700DF003A /* APIKit.swift */; };
 		FC56257728016DC900DF003A /* ContestYear:id=0.json in Resources */ = {isa = PBXBuildFile; fileRef = FC56257428016DC800DF003A /* ContestYear:id=0.json */; };
@@ -39,12 +43,10 @@
 		FCC2C93B28015BBF0098B865 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2C91728015BBF0098B865 /* SceneDelegate.swift */; };
 		FCC2C93C28015BBF0098B865 /* Content.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCC2C91928015BBF0098B865 /* Content.plist */; };
 		FCC2C93D28015BBF0098B865 /* mainLottie.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC2C91A28015BBF0098B865 /* mainLottie.json */; };
-		FCC2C93E28015BBF0098B865 /* dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC2C91B28015BBF0098B865 /* dummy.json */; };
 		FCC2C93F28015BBF0098B865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC2C91C28015BBF0098B865 /* Assets.xcassets */; };
 		FCC2C94028015BBF0098B865 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCC2C91D28015BBF0098B865 /* GoogleService-Info.plist */; };
 		FCC2C94128015BBF0098B865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC2C91E28015BBF0098B865 /* LaunchScreen.storyboard */; };
 		FCC2C94328015BBF0098B865 /* ContestList.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC2C92228015BBF0098B865 /* ContestList.json */; };
-		FCC2C94428015BBF0098B865 /* infoDetail.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC2C92328015BBF0098B865 /* infoDetail.json */; };
 		FCC2C94628015BBF0098B865 /* Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2C92528015BBF0098B865 /* Extenstion.swift */; };
 		FCC2C94828015BBF0098B865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2C92728015BBF0098B865 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,10 @@
 		6C7C1C8B28032B6200658058 /* PrizeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeList.swift; sourceTree = "<group>"; };
 		6C8B3FC02805438F003E18CC /* DeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
 		6CAAB1C827F5EF7D003C963F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6CFCF69B28069F8A003D3DA1 /* PrizeList:id=2,year=2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2020.json"; path = "../../../../../../Downloads/web/PrizeList:id=2,year=2020.json"; sourceTree = "<group>"; };
+		6CFCF69C28069F8A003D3DA1 /* PrizeList:id=2,year=2019.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2019.json"; path = "../../../../../../Downloads/web/PrizeList:id=2,year=2019.json"; sourceTree = "<group>"; };
+		6CFCF69D28069F8A003D3DA1 /* PrizeList:id=2,year=2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2021.json"; path = "../../../../../../Downloads/web/PrizeList:id=2,year=2021.json"; sourceTree = "<group>"; };
+		6CFCF69E28069F8A003D3DA1 /* PrizeList:id=1,year=2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=1,year=2020.json"; path = "../../../../../../Downloads/web/PrizeList:id=1,year=2020.json"; sourceTree = "<group>"; };
 		7E49E59B0A8C5CC6826F98DD /* Pods-SCON_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCON_iOS.release.xcconfig"; path = "Target Support Files/Pods-SCON_iOS/Pods-SCON_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		FC5625692801685700DF003A /* APIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKit.swift; sourceTree = "<group>"; };
 		FC56257428016DC800DF003A /* ContestYear:id=0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ContestYear:id=0.json"; sourceTree = "<group>"; };
@@ -86,12 +92,10 @@
 		FCC2C91728015BBF0098B865 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FCC2C91928015BBF0098B865 /* Content.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Content.plist; sourceTree = "<group>"; };
 		FCC2C91A28015BBF0098B865 /* mainLottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mainLottie.json; sourceTree = "<group>"; };
-		FCC2C91B28015BBF0098B865 /* dummy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dummy.json; sourceTree = "<group>"; };
 		FCC2C91C28015BBF0098B865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCC2C91D28015BBF0098B865 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FCC2C91F28015BBF0098B865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCC2C92228015BBF0098B865 /* ContestList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ContestList.json; sourceTree = "<group>"; };
-		FCC2C92328015BBF0098B865 /* infoDetail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = infoDetail.json; sourceTree = "<group>"; };
 		FCC2C92528015BBF0098B865 /* Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extenstion.swift; sourceTree = "<group>"; };
 		FCC2C92628015BBF0098B865 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC2C92728015BBF0098B865 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -211,16 +215,12 @@
 				6C7C1C83280327D300658058 /* PrizeList:id=0,year=2020.json */,
 				6C7C1C85280327E300658058 /* PrizeList:id=0,year=2019.json */,
 				6C7C1C892803285000658058 /* PrizeList:id=1,year=2021.json */,
+				6CFCF69E28069F8A003D3DA1 /* PrizeList:id=1,year=2020.json */,
+				6CFCF69C28069F8A003D3DA1 /* PrizeList:id=2,year=2019.json */,
+				6CFCF69B28069F8A003D3DA1 /* PrizeList:id=2,year=2020.json */,
+				6CFCF69D28069F8A003D3DA1 /* PrizeList:id=2,year=2021.json */,
 			);
 			path = Prize;
-			sourceTree = "<group>";
-		};
-		FC56258F2801708B00DF003A /* PrizeDetail */ = {
-			isa = PBXGroup;
-			children = (
-				FCC2C92328015BBF0098B865 /* infoDetail.json */,
-			);
-			path = PrizeDetail;
 			sourceTree = "<group>";
 		};
 		FCC2C8FC28015BBF0098B865 /* Module */ = {
@@ -298,13 +298,12 @@
 		FCC2C91828015BBF0098B865 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				FCC2C92028015BBF0098B865 /* DatajsonFiles */,
 				FCC2C91928015BBF0098B865 /* Content.plist */,
 				FCC2C91A28015BBF0098B865 /* mainLottie.json */,
-				FCC2C91B28015BBF0098B865 /* dummy.json */,
 				FCC2C91C28015BBF0098B865 /* Assets.xcassets */,
 				FCC2C91D28015BBF0098B865 /* GoogleService-Info.plist */,
 				FCC2C91E28015BBF0098B865 /* LaunchScreen.storyboard */,
-				FCC2C92028015BBF0098B865 /* DatajsonFiles */,
 				FCC2C92528015BBF0098B865 /* Extenstion.swift */,
 				FCC2C92628015BBF0098B865 /* Info.plist */,
 			);
@@ -314,7 +313,6 @@
 		FCC2C92028015BBF0098B865 /* DatajsonFiles */ = {
 			isa = PBXGroup;
 			children = (
-				FC56258F2801708B00DF003A /* PrizeDetail */,
 				FC56257A28016FB200DF003A /* Prize */,
 				FC56256C28016C9600DF003A /* Contest */,
 			);
@@ -385,6 +383,7 @@
 				FC56257828016DC900DF003A /* ContestYear:id=2.json in Resources */,
 				FC56257928016DC900DF003A /* ContestYear:id=1.json in Resources */,
 				6C7C1C802803275800658058 /* PrizeList:id=0,year=2021.json in Resources */,
+				6CFCF69F28069F8A003D3DA1 /* PrizeList:id=2,year=2020.json in Resources */,
 				FC56257728016DC900DF003A /* ContestYear:id=0.json in Resources */,
 				FCC2C93428015BBF0098B865 /* WebViewController.xib in Resources */,
 				FCC2C94328015BBF0098B865 /* ContestList.json in Resources */,
@@ -393,13 +392,14 @@
 				FCC2C93C28015BBF0098B865 /* Content.plist in Resources */,
 				FCC2C92A28015BBF0098B865 /* Home.storyboard in Resources */,
 				6C7C1C8A2803285000658058 /* PrizeList:id=1,year=2021.json in Resources */,
+				6CFCF6A128069F8A003D3DA1 /* PrizeList:id=2,year=2021.json in Resources */,
 				FCC2C93928015BBF0098B865 /* Login.storyboard in Resources */,
-				FCC2C93E28015BBF0098B865 /* dummy.json in Resources */,
+				6CFCF6A028069F8A003D3DA1 /* PrizeList:id=2,year=2019.json in Resources */,
+				6CFCF6A228069F8A003D3DA1 /* PrizeList:id=1,year=2020.json in Resources */,
 				FCC2C94028015BBF0098B865 /* GoogleService-Info.plist in Resources */,
 				FCC2C93F28015BBF0098B865 /* Assets.xcassets in Resources */,
 				FCC2C94128015BBF0098B865 /* LaunchScreen.storyboard in Resources */,
 				6C7C1C86280327E300658058 /* PrizeList:id=0,year=2019.json in Resources */,
-				FCC2C94428015BBF0098B865 /* infoDetail.json in Resources */,
 				6C7C1C84280327D300658058 /* PrizeList:id=0,year=2020.json in Resources */,
 				FCC2C93628015BBF0098B865 /* Detail.storyboard in Resources */,
 			);

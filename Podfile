@@ -10,10 +10,11 @@ target 'SCON_iOS' do
   pod 'Tabman', '~> 2.12'
   pod "youtube-ios-player-helper"
   pod 'JJFloatingActionButton'
-  pod 'lottie-ios'
   pod 'Kingfisher'
-  pod 'Firebase/Auth'
   pod 'ImageSlideshow', '~> 1.9.0'
+
+#  pod 'lottie-ios'
+#  pod 'Firebase/Auth'
 
 
 end

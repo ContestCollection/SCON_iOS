@@ -1,1 +1,48 @@
-
+{
+    "headerList": [
+        {
+            "id": 0,
+            "prizeHeader": "대상",
+            "prizeListData": [
+                {
+                    "id": 0,
+                    "name": "펀치",
+                    "subTitle": "출석체크 플랫폼",
+                    "img": "https://i.postimg.cc/5NFfs35y/image.png",
+                    "infoDetail": {
+                        "awardDetail": "2020년 대상",
+                        "summary": "소프트웨어를 이용한 출석체크 방식은 비밀번호 노출의 위험이 있고, 하드웨어를 이용한 출석체크 방식은 비용문제가 있습니다.\\n이러한 문제점을 해결하고자 만들어진 OTP-QR을 이용한 출석체크 플랫폼입니다",
+                        "people": "정인국, 이종호, 여은성, 김민혁",
+                        "calendar": "2020.3: 기획 및 프로젝트 빌딩, 4~10: 개발 및 테스트",
+                        "gitLink": "https://github.com/jungingook/punch_jungingookteam",
+                        "youtubeLink": "kM4P36WwId4",
+                        "serviceLink": "https://vo.la/JtfpQ",
+                        "skills": "React AXIOS node.js"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "prizeHeader": "동상",
+            "prizeListData": [
+                {
+                    "id": 0,
+                    "name": "스터디 투게더",
+                    "subTitle": "성공회대 스터디 모집 플랫폼",
+                    "img": "https://i.postimg.cc/fW1VWkB3/image.png",
+                    "infoDetail": {
+                        "awardDetail": "2020년 동상",
+                        "summary": "기존의 인터넷 카페 등의 스터디 탐색에서 어플리케이션 기반 탐색으로 더 쉬운 탐색과 더 간편한 관리를 제공해주는 서비스입니다.",
+                        "people": "오준현, 김희재, 원현식",
+                        "calendar": "2020.4~5: 기획 및 사전조사, 6~10: 개발 및 테스트",
+                        "gitLink": "https://github.com/SKHU-STUDY",
+                        "youtubeLink": "uzWpoyLp8c8",
+                        "serviceLink": "미등록",
+                        "skills": "Swift ALAMOFIRE KINGFISHER"
+                    }
+                }
+            ]
+        }
+    ]
+}

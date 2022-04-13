@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import FirebaseAuth
+//import FirebaseAuth
 
 class EmailLoginViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
@@ -33,26 +33,26 @@ class EmailLoginViewController: UIViewController {
 
     @IBAction func tappedNextBtn(_ sender: UIButton) {
         //Firebase 이메일, 비번 인증
-        let email = emailTextField.text ?? ""
-        let password = passwordTextField.text ?? ""
+//        let email = emailTextField.text ?? ""
+//        let password = passwordTextField.text ?? ""
         
         //신규 사용자
-        Auth.auth().createUser(withEmail: email, password: password) { [weak self] authResult, error in
-            guard let self = self else { return }
-            if let error = error {
-                let code = (error as NSError).code
-                switch code {
-                case 17007: //이미 가입한 계정
-                    //로그인 하기
-                    self.loginUser(withEamil: email, password: password)
-                default:
-                    self.errorMsgLabel.text = error.localizedDescription
-                }
-            } else { //에러가 없으면
-                self.showMainVC()
-            }
-            
-        }
+//        Auth.auth().createUser(withEmail: email, password: password) { [weak self] authResult, error in
+//            guard let self = self else { return }
+//            if let error = error {
+//                let code = (error as NSError).code
+//                switch code {
+//                case 17007: //이미 가입한 계정
+//                    //로그인 하기
+//                    self.loginUser(withEamil: email, password: password)
+//                default:
+//                    self.errorMsgLabel.text = error.localizedDescription
+//                }
+//            } else { //에러가 없으면
+//                self.showMainVC()
+//            }
+//
+//        }
     }
     
     //메인 뷰로 넘어가기
@@ -63,16 +63,16 @@ class EmailLoginViewController: UIViewController {
         navigationController?.show(mainVC, sender: nil)
     }
     //로그인 하기
-    private func loginUser(withEamil email: String, password: String){
-        Auth.auth().signIn(withEmail: email, password: password) { [weak self] _, error in
-            guard let self = self else { return }
-            if let error = error {
-                self.errorMsgLabel.text = error.localizedDescription
-            } else {
-                self.showMainVC()
-            }
-        }
-    }
+//    private func loginUser(withEamil email: String, password: String){
+//        Auth.auth().signIn(withEmail: email, password: password) { [weak self] _, error in
+//            guard let self = self else { return }
+//            if let error = error {
+//                self.errorMsgLabel.text = error.localizedDescription
+//            } else {
+//                self.showMainVC()
+//            }
+//        }
+//    }
 
 }
 

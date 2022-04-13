@@ -1,1 +1,48 @@
-
+{
+    "headerList": [
+        {
+            "id": 0,
+            "prizeHeader": "동상",
+            "prizeListData": [
+                {
+                    "id": 0,
+                    "name": "ENCHANT-SHOOTER",
+                    "subTitle": "최대한 오래 살아남아 포인트를 높여라!",
+                    "img": "https://i.postimg.cc/DZb8prXy/image.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 동상",
+                        "summary": "맵 곳곳에서 무한히 쏟아지는 귀여운 몬스터, 몬스터를 처치해 얻는 고유한 특징의 속성 탄환, 콜로세움 스타일의 맵에서 벌어지는 생존싸움, 화려하고 중독성있는 그래픽효과, 캐주얼하게 움직이며 총을 쏘는 run&gun 스타일이라는 특징을 가진 슈팅게임 Enchant Shooter입니다.",
+                        "people": "김승기, 이유나",
+                        "calendar": "미등록",
+                        "gitLink": "미등록",
+                        "youtubeLink": "IpNcAQIRVZk",
+                        "serviceLink": "미등록",
+                        "skills": "Unity"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "prizeHeader": "장려상",
+            "prizeListData": [
+                {
+                    "id": 0,
+                    "name": "the pad",
+                    "subTitle": "2D 애니메이션 아이패드에 대한 로망",
+                    "img": "https://i.postimg.cc/XY3dZzyK/image.png",
+                    "infoDetail": {
+                        "awardDetail": "2021년 장려상",
+                        "summary": "아이패드를 가지고 싶어하는 마음을 상상력으로 풀어냄으로써 아이패드를 가지고 싶은 심정을 재미있게 표현하고 보는 이에게 재미와 공감을 느낄 수 있도록 제작한 애니메이션 the pad입니다.",
+                        "people": "김지인, 채나연",
+                        "calendar": "2021.9: 디자인, 10: 소스 제작 및 편집",
+                        "gitLink": "미등록",
+                        "youtubeLink": "MDd2yRxpFGg",
+                        "serviceLink": "미등록",
+                        "skills": "Photoshop, After Effects"
+                    }
+                }
+            ]
+        }
+    ]
+}
