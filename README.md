@@ -3,8 +3,7 @@
 
 ## 💡S_CON
 SKHU 경진대회를 위한 <b>All-in-One Service</b> <br>
-S_CON은 Skhu + Contest의 앞 한글자씩 따와 짓게 되었습니다.
-
+S_CON은 Skhu + Contest의 앞글자를 따와 짓게 되었습니다.
 <br>
 
 ## 💡Description
@@ -23,7 +22,7 @@ S_CON은 Skhu + Contest의 앞 한글자씩 따와 짓게 되었습니다.
 
 ## 💡Data
 [YOUTUBE 발표자료](https://www.youtube.com/watch?v=XPU5FRxcqHw&t=567s) <br>
-[WEB 배포링크](www.s-con.vercel)
+[WEB 배포링크](https://s-con.vercel.app/)
 
 ## 💡OpenSource
 - Tabman
