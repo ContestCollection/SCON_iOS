@@ -10,7 +10,6 @@ import Kingfisher
 
 class CategoryDetailViewController: UIViewController {
 
-    
     @IBOutlet weak var collectionView: UICollectionView!
     private var prizeListHeader: [PrizeListHeader] = []
     var categoryDetailYear: Int = 2021 //몇년도인지 값
@@ -22,7 +21,6 @@ class CategoryDetailViewController: UIViewController {
         setupLayout()
         bindData()
     }
-    
 
     //MARK: - private func
     private func setupLayout(){
@@ -40,19 +38,13 @@ class CategoryDetailViewController: UIViewController {
         case .failure(let error):
             debugPrint("디테일에러: ",error)
         }
-        
     }
-    
 }
-
-
-
 //MARK: - UICollectionViewDataSource
 extension CategoryDetailViewController: UICollectionViewDataSource{
     //섹션 당 보여질 셀의 개수
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return prizeListHeader[section].prizeListData.count
-//        return arrData[section].dataList.count
     }
     //콜렉션 뷰 셀 설정
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -62,14 +54,12 @@ extension CategoryDetailViewController: UICollectionViewDataSource{
         cell.imageView.kf.setImage(with: imageURL)
         cell.titleLabel.text = dataList.name
         cell.descriptionLabel.text = dataList.subTitle
-
         return cell
     }
     //섹션의 개수 설정
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return prizeListHeader.count
     }
-    
     //섹션의 헤더 사용하기 위해 구현
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         if kind == UICollectionView.elementKindSectionHeader{

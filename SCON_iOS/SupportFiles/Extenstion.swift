@@ -38,7 +38,6 @@ extension UIViewController{
                 alignment: .topLeading)
             section.boundarySupplementaryItems = [titleSupplementary]
             return section
-            
         }
         return layout
     }
@@ -52,7 +51,7 @@ extension UIView{
         layer.shadowOpacity = 0.5
     }
     func makeRounded() {
-        layer.cornerRadius = (self.frame.width / 2) //instead of let radius = CGRectGetWidth(self.frame) / 2
+        layer.cornerRadius = (self.frame.width / 2)
         layer.masksToBounds = true
     }
 }

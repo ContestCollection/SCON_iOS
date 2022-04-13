@@ -43,7 +43,6 @@ class HomeViewController: UIViewController {
         //플러팅 버튼 구성
         configureFloatingButton()
     }
-
     
     private func setupSliderImage(){
         mainImageSlider.setImageInputs(sliderImageSources)
@@ -51,7 +50,6 @@ class HomeViewController: UIViewController {
         mainImageSlider.slideshowInterval = 2
     }
     
-
     private func bindData() {
         //리스트 넘겨 받음
         let result = APIKit.shared.request(url: "ContestList", type: ContestList.self)
@@ -61,7 +59,6 @@ class HomeViewController: UIViewController {
         case .failure(let error):
             print("ERROR: \(error.localizedDescription)")
         }
-
     }
     
     private func urlToWebView(_ url: String, title: String){
@@ -95,16 +92,11 @@ class HomeViewController: UIViewController {
             guard let developerVC = self.storyboard?.instantiateViewController(withIdentifier: "DeveloperViewController") as? DeveloperViewController else { return }
             self.navigationController?.pushViewController(developerVC, animated: true)
         }
-
         view.addSubview(actionButton)
         actionButton.translatesAutoresizingMaskIntoConstraints = false
         actionButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16).isActive = true
         actionButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -16).isActive = true
     }
-    
-    
-   
-
 }
 
 //MARK: - UITableViewDataSource
@@ -120,10 +112,8 @@ extension HomeViewController: UITableViewDataSource{
         //이미지 설정
         let image = UIImage(named: "\(data.icon)")
         cell.imgView.image = image
-
         return cell
     }
-    
 }
 
 //MARK: - UITableViewDelegate

@@ -30,6 +30,7 @@ class DetailViewController: UIViewController {
         updateUI()
         ConnectLabelData()
     }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         //네비게이션 설정
@@ -38,9 +39,7 @@ class DetailViewController: UIViewController {
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "house"), style: .done, target: self, action: #selector(homeTapped))
     }
     
-    
     //MARK: - private func
-    
     private func updateUI(){
         guard let youtubeLink = detailInfo?.infoDetail.youtubeLink else { return }
         youtubeView.load(withVideoId: youtubeLink)
@@ -70,7 +69,6 @@ class DetailViewController: UIViewController {
     @IBAction func tapServiceLinkBtn(_ sender: UIButton) {
         guard let serviceLink = detailInfo?.infoDetail.serviceLink else { return }
         self.urlToWebView(serviceLink, title: "서비스 링크")
-        
     }
     
     @IBAction func tapGithubBtn(_ sender: UIButton) {
@@ -78,10 +76,8 @@ class DetailViewController: UIViewController {
         self.urlToWebView(gitLink, title: "깃허브 링크")
     }
     
-    
     //네비게이션 홈버튼
     @objc func homeTapped(sender: UIBarButtonItem) {
         navigationController?.popToRootViewController(animated: true)
     }
-
 }

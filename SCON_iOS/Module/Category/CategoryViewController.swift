@@ -23,7 +23,6 @@ class CategoryViewController: TabmanViewController {
         bindData()
         connectToTapbar()
         setupLayout()
-
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -46,8 +45,8 @@ class CategoryViewController: TabmanViewController {
     private func setupLayout(){
         self.dataSource = self
         self.createTabBar() //하단 탭바
-        
     }
+    
     private func connectToTapbar(){
         let storyboard = UIStoryboard.init(name: "Category", bundle: nil)
         for idx in contestYearList.year {
@@ -58,6 +57,7 @@ class CategoryViewController: TabmanViewController {
             viewControllers.append(vc)
         }
     }
+    
     // Create Tabbar
     private func createTabBar() {
         let bar = TMBar.ButtonBar()
@@ -77,8 +77,8 @@ class CategoryViewController: TabmanViewController {
         // Add to view
         addBar(bar, dataSource: self, at: .top)
     }
-
 }
+
 //MARK: - TabmanVC- DataSource
 extension CategoryViewController: PageboyViewControllerDataSource, TMBarDataSource{
     func barItem(for bar: TMBar, at index: Int) -> TMBarItemable {
@@ -90,7 +90,7 @@ extension CategoryViewController: PageboyViewControllerDataSource, TMBarDataSour
         func numberOfViewControllers(in pageboyViewController: PageboyViewController) -> Int {
             return viewControllers.count
         }
-
+    
         func viewController(for pageboyViewController: PageboyViewController,
                             at index: PageboyViewController.PageIndex) -> UIViewController? {
             return viewControllers[index]
@@ -99,5 +99,4 @@ extension CategoryViewController: PageboyViewControllerDataSource, TMBarDataSour
         func defaultPage(for pageboyViewController: PageboyViewController) -> PageboyViewController.Page? {
             return nil
         }
-    
 }

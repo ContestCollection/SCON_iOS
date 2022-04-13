@@ -35,6 +35,5 @@ class DeveloperViewController: UIViewController {
     private func urlToImg(img: UIImageView, url: String){
         img.kf.setImage(with: URL(string: url))
     }
-    
 
 }

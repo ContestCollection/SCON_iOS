@@ -13,15 +13,11 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var defaultLoginBtn: UIButton!
     @IBOutlet weak var memberJoinBtn: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.customNavigation()
         [googleLoginBtn, defaultLoginBtn, memberJoinBtn].forEach { btn in
             btn?.makeCircleAndbgColor(bgColor: .systemYellow)
         }
-        
     }
-   
-
 }

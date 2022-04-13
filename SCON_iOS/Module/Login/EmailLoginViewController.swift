@@ -5,6 +5,8 @@
 //  Created by 김지인 on 2022/04/05.
 //
 
+//로그인 기능 잠시 보류
+
 import UIKit
 //import FirebaseAuth
 
