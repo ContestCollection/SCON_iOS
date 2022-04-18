@@ -11,7 +11,7 @@
                     "img": "https://i.postimg.cc/5NFfs35y/image.png",
                     "infoDetail": {
                         "awardDetail": "2020년 대상",
-                        "summary": "소프트웨어를 이용한 출석체크 방식은 비밀번호 노출의 위험이 있고, 하드웨어를 이용한 출석체크 방식은 비용문제가 있습니다.\\n이러한 문제점을 해결하고자 만들어진 OTP-QR을 이용한 출석체크 플랫폼입니다",
+                        "summary": "소프트웨어를 이용한 출석체크 방식은 비밀번호 노출의 위험이 있고, 하드웨어를 이용한 출석체크 방식은 비용문제가 있습니다.\n이러한 문제점을 해결하고자 만들어진 OTP-QR을 이용한 출석체크 플랫폼입니다",
                         "people": "정인국, 이종호, 여은성, 김민혁",
                         "calendar": "2020.3: 기획 및 프로젝트 빌딩, 4~10: 개발 및 테스트",
                         "gitLink": "https://github.com/jungingook/punch_jungingookteam",

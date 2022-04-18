@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C061923280D4B97000796DC /* PrizeList:id=1,year=2020.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C06191F280D4B97000796DC /* PrizeList:id=1,year=2020.json */; };
+		6C061924280D4B97000796DC /* PrizeList:id=2,year=2019.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C061920280D4B97000796DC /* PrizeList:id=2,year=2019.json */; };
+		6C061925280D4B97000796DC /* PrizeList:id=2,year=2021.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C061921280D4B97000796DC /* PrizeList:id=2,year=2021.json */; };
+		6C061926280D4B97000796DC /* PrizeList:id=2,year=2020.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C061922280D4B97000796DC /* PrizeList:id=2,year=2020.json */; };
 		6C7C1C592802F09A00658058 /* ContestYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C1C582802F09A00658058 /* ContestYear.swift */; };
 		6C7C1C5C2802F14400658058 /* ContestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C1C5B2802F14400658058 /* ContestList.swift */; };
 		6C7C1C802803275800658058 /* PrizeList:id=0,year=2021.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7C1C7F2803275800658058 /* PrizeList:id=0,year=2021.json */; };
@@ -16,10 +20,6 @@
 		6C7C1C8C28032B6200658058 /* PrizeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C1C8B28032B6200658058 /* PrizeList.swift */; };
 		6C8B3FC12805438F003E18CC /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B3FC02805438F003E18CC /* DeveloperViewController.swift */; };
 		6CAAB1C927F5EF7D003C963F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAAB1C827F5EF7D003C963F /* WebKit.framework */; };
-		6CFCF69F28069F8A003D3DA1 /* PrizeList:id=2,year=2020.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCF69B28069F8A003D3DA1 /* PrizeList:id=2,year=2020.json */; };
-		6CFCF6A028069F8A003D3DA1 /* PrizeList:id=2,year=2019.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCF69C28069F8A003D3DA1 /* PrizeList:id=2,year=2019.json */; };
-		6CFCF6A128069F8A003D3DA1 /* PrizeList:id=2,year=2021.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCF69D28069F8A003D3DA1 /* PrizeList:id=2,year=2021.json */; };
-		6CFCF6A228069F8A003D3DA1 /* PrizeList:id=1,year=2020.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CFCF69E28069F8A003D3DA1 /* PrizeList:id=1,year=2020.json */; };
 		A61054E2E08DA02CF2FF8028 /* Pods_SCON_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF6D4C9A2D2A9CD4AA36747 /* Pods_SCON_iOS.framework */; };
 		FC56256A2801685700DF003A /* APIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5625692801685700DF003A /* APIKit.swift */; };
 		FC56257728016DC900DF003A /* ContestYear:id=0.json in Resources */ = {isa = PBXBuildFile; fileRef = FC56257428016DC800DF003A /* ContestYear:id=0.json */; };
@@ -54,6 +54,10 @@
 /* Begin PBXFileReference section */
 		40627B008D498A279F1F88AE /* Pods-SCON_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCON_iOS.debug.xcconfig"; path = "Target Support Files/Pods-SCON_iOS/Pods-SCON_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5EF6D4C9A2D2A9CD4AA36747 /* Pods_SCON_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCON_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C06191F280D4B97000796DC /* PrizeList:id=1,year=2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=1,year=2020.json"; path = "../../../../../../Downloads/json 진짜찐최종본/PrizeList:id=1,year=2020.json"; sourceTree = "<group>"; };
+		6C061920280D4B97000796DC /* PrizeList:id=2,year=2019.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2019.json"; path = "../../../../../../Downloads/json 진짜찐최종본/PrizeList:id=2,year=2019.json"; sourceTree = "<group>"; };
+		6C061921280D4B97000796DC /* PrizeList:id=2,year=2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2021.json"; path = "../../../../../../Downloads/json 진짜찐최종본/PrizeList:id=2,year=2021.json"; sourceTree = "<group>"; };
+		6C061922280D4B97000796DC /* PrizeList:id=2,year=2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2020.json"; path = "../../../../../../Downloads/json 진짜찐최종본/PrizeList:id=2,year=2020.json"; sourceTree = "<group>"; };
 		6C143CD927E5A95700E833DE /* SCON_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCON_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7C1C582802F09A00658058 /* ContestYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestYear.swift; sourceTree = "<group>"; };
 		6C7C1C5B2802F14400658058 /* ContestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestList.swift; sourceTree = "<group>"; };
@@ -65,10 +69,6 @@
 		6C7C1C8B28032B6200658058 /* PrizeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeList.swift; sourceTree = "<group>"; };
 		6C8B3FC02805438F003E18CC /* DeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
 		6CAAB1C827F5EF7D003C963F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		6CFCF69B28069F8A003D3DA1 /* PrizeList:id=2,year=2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2020.json"; path = "../../../../../../Downloads/web/PrizeList:id=2,year=2020.json"; sourceTree = "<group>"; };
-		6CFCF69C28069F8A003D3DA1 /* PrizeList:id=2,year=2019.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2019.json"; path = "../../../../../../Downloads/web/PrizeList:id=2,year=2019.json"; sourceTree = "<group>"; };
-		6CFCF69D28069F8A003D3DA1 /* PrizeList:id=2,year=2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2021.json"; path = "../../../../../../Downloads/web/PrizeList:id=2,year=2021.json"; sourceTree = "<group>"; };
-		6CFCF69E28069F8A003D3DA1 /* PrizeList:id=1,year=2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=1,year=2020.json"; path = "../../../../../../Downloads/web/PrizeList:id=1,year=2020.json"; sourceTree = "<group>"; };
 		7E49E59B0A8C5CC6826F98DD /* Pods-SCON_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCON_iOS.release.xcconfig"; path = "Target Support Files/Pods-SCON_iOS/Pods-SCON_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		FC5625692801685700DF003A /* APIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKit.swift; sourceTree = "<group>"; };
 		FC56257428016DC800DF003A /* ContestYear:id=0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ContestYear:id=0.json"; sourceTree = "<group>"; };
@@ -214,11 +214,11 @@
 				6C7C1C7F2803275800658058 /* PrizeList:id=0,year=2021.json */,
 				6C7C1C83280327D300658058 /* PrizeList:id=0,year=2020.json */,
 				6C7C1C85280327E300658058 /* PrizeList:id=0,year=2019.json */,
+				6C061920280D4B97000796DC /* PrizeList:id=2,year=2019.json */,
+				6C061922280D4B97000796DC /* PrizeList:id=2,year=2020.json */,
+				6C061921280D4B97000796DC /* PrizeList:id=2,year=2021.json */,
 				6C7C1C892803285000658058 /* PrizeList:id=1,year=2021.json */,
-				6CFCF69E28069F8A003D3DA1 /* PrizeList:id=1,year=2020.json */,
-				6CFCF69C28069F8A003D3DA1 /* PrizeList:id=2,year=2019.json */,
-				6CFCF69B28069F8A003D3DA1 /* PrizeList:id=2,year=2020.json */,
-				6CFCF69D28069F8A003D3DA1 /* PrizeList:id=2,year=2021.json */,
+				6C06191F280D4B97000796DC /* PrizeList:id=1,year=2020.json */,
 			);
 			path = Prize;
 			sourceTree = "<group>";
@@ -383,7 +383,6 @@
 				FC56257828016DC900DF003A /* ContestYear:id=2.json in Resources */,
 				FC56257928016DC900DF003A /* ContestYear:id=1.json in Resources */,
 				6C7C1C802803275800658058 /* PrizeList:id=0,year=2021.json in Resources */,
-				6CFCF69F28069F8A003D3DA1 /* PrizeList:id=2,year=2020.json in Resources */,
 				FC56257728016DC900DF003A /* ContestYear:id=0.json in Resources */,
 				FCC2C93428015BBF0098B865 /* WebViewController.xib in Resources */,
 				FCC2C94328015BBF0098B865 /* ContestList.json in Resources */,
@@ -392,16 +391,17 @@
 				FCC2C93C28015BBF0098B865 /* Content.plist in Resources */,
 				FCC2C92A28015BBF0098B865 /* Home.storyboard in Resources */,
 				6C7C1C8A2803285000658058 /* PrizeList:id=1,year=2021.json in Resources */,
-				6CFCF6A128069F8A003D3DA1 /* PrizeList:id=2,year=2021.json in Resources */,
 				FCC2C93928015BBF0098B865 /* Login.storyboard in Resources */,
-				6CFCF6A028069F8A003D3DA1 /* PrizeList:id=2,year=2019.json in Resources */,
-				6CFCF6A228069F8A003D3DA1 /* PrizeList:id=1,year=2020.json in Resources */,
 				FCC2C94028015BBF0098B865 /* GoogleService-Info.plist in Resources */,
+				6C061923280D4B97000796DC /* PrizeList:id=1,year=2020.json in Resources */,
+				6C061925280D4B97000796DC /* PrizeList:id=2,year=2021.json in Resources */,
 				FCC2C93F28015BBF0098B865 /* Assets.xcassets in Resources */,
 				FCC2C94128015BBF0098B865 /* LaunchScreen.storyboard in Resources */,
 				6C7C1C86280327E300658058 /* PrizeList:id=0,year=2019.json in Resources */,
 				6C7C1C84280327D300658058 /* PrizeList:id=0,year=2020.json in Resources */,
 				FCC2C93628015BBF0098B865 /* Detail.storyboard in Resources */,
+				6C061926280D4B97000796DC /* PrizeList:id=2,year=2020.json in Resources */,
+				6C061924280D4B97000796DC /* PrizeList:id=2,year=2019.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

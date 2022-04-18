@@ -8,12 +8,12 @@
 import UIKit
 import Kingfisher
 
-class DeveloperViewController: UIViewController {
+final class DeveloperViewController: UIViewController {
 
-    @IBOutlet weak var img_ios: UIImageView!
-    @IBOutlet weak var img_web1: UIImageView!
-    @IBOutlet weak var img_web2: UIImageView!
-    @IBOutlet weak var img_server: UIImageView!
+    @IBOutlet private weak var img_ios: UIImageView!
+    @IBOutlet private weak var img_web1: UIImageView!
+    @IBOutlet private weak var img_web2: UIImageView!
+    @IBOutlet private weak var img_server: UIImageView!
     
     private let urlList = [
         "https://avatars.githubusercontent.com/u/37897873?v=4",

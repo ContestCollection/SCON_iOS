@@ -10,7 +10,7 @@ import Tabman
 import Pageboy
 
 
-class CategoryViewController: TabmanViewController {
+final class CategoryViewController: TabmanViewController {
     
     //MARK: - 변수
     private var viewControllers: Array<UIViewController> = []

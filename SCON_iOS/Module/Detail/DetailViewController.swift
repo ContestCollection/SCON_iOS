@@ -10,17 +10,17 @@ import youtube_ios_player_helper
 
 class DetailViewController: UIViewController {
     
-    @IBOutlet weak var youtubeView: YTPlayerView!
-    @IBOutlet weak var titleView: UIView!
+    @IBOutlet private weak var youtubeView: YTPlayerView!
+    @IBOutlet private weak var titleView: UIView!
     //타이틀 뷰
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var subTitleLabel: UILabel!
-    @IBOutlet weak var awardDetailLabel: UILabel!
+    @IBOutlet private weak var nameLabel: UILabel!
+    @IBOutlet private weak var subTitleLabel: UILabel!
+    @IBOutlet private weak var awardDetailLabel: UILabel!
     //상세 뷰
-    @IBOutlet weak var summaryLabel: UILabel!
-    @IBOutlet weak var memberInfoLabel: UILabel!
-    @IBOutlet weak var devSkillLabel: UILabel!
-    @IBOutlet weak var calendarLabel: UILabel!
+    @IBOutlet private weak var summaryLabel: UILabel!
+    @IBOutlet private weak var memberInfoLabel: UILabel!
+    @IBOutlet private weak var devSkillLabel: UILabel!
+    @IBOutlet private weak var calendarLabel: UILabel!
     
     var detailInfo: PrizeListData?
     
@@ -77,7 +77,7 @@ class DetailViewController: UIViewController {
     }
     
     //네비게이션 홈버튼
-    @objc func homeTapped(sender: UIBarButtonItem) {
+    @objc private func homeTapped(sender: UIBarButtonItem) {
         navigationController?.popToRootViewController(animated: true)
     }
 }

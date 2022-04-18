@@ -9,12 +9,12 @@ import JJFloatingActionButton
 import ImageSlideshow
 
 
-class HomeViewController: UIViewController {
+final class HomeViewController: UIViewController {
     
     @IBOutlet private weak var mainTitleLabel: UILabel!
     @IBOutlet private weak var mainTableView: UITableView!
     
-    @IBOutlet weak var mainImageSlider: ImageSlideshow!
+    @IBOutlet private weak var mainImageSlider: ImageSlideshow!
     
     private var contestSortList: [ContestList.ContestSort] = []
     private let sliderImageSources = [

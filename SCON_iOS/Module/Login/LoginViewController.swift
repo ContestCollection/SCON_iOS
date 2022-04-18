@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+final class LoginViewController: UIViewController {
 
     @IBOutlet weak var googleLoginBtn: UIButton!
     @IBOutlet weak var defaultLoginBtn: UIButton!
