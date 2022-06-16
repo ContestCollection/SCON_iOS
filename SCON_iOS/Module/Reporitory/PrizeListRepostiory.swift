@@ -8,13 +8,19 @@
 import Foundation
 import Alamofire
 
+enum NetworkError: Error {
+    case noData                 // 결과 데이터 미존재
+    case failDecode             // Decode 실패
+    case noURL                 // URL 존재하지 않음
+}
+
 protocol PrizeRepositoriable {
     func fetch(field: String, part: String, year: Int, complectionHandler: @escaping(Result<PrizeTeamList,  Error>) -> ())
 }
 
 class PrizeListRepostiory: PrizeRepositoriable {
     func fetch(field: String, part: String, year: Int, complectionHandler: @escaping (Result<PrizeTeamList, Error>) -> ()) {
-        let url = "http://54.201.143.111:5000/ios"
+        guard let url = makeGetPrizeListComponents(part: part, year: year).url else { return complectionHandler(.failure(NetworkError.noURL)) }
         AF.request(url,
                    method: .get)
             .responseData { response in
@@ -25,7 +31,7 @@ class PrizeListRepostiory: PrizeRepositoriable {
                         let result = try decoder.decode(PrizeTeamList.self, from: data)
                         complectionHandler(.success(result))
                     } catch {
-                        complectionHandler(.failure(error))
+                        complectionHandler(.failure(NetworkError.failDecode))
                         print(debugPrint(error))
                     }
                 case let .failure(error):
@@ -34,3 +40,21 @@ class PrizeListRepostiory: PrizeRepositoriable {
             }
     }
 }
+
+private extension PrizeListRepostiory {
+    struct PrizeAPI {
+        static let scheme = "http"
+        static let host = "54.201.143.111:5000"
+        static let path = "/ios"
+    }
+    
+    func makeGetPrizeListComponents(part: String, year: Int) -> URLComponents {
+        var components = URLComponents()
+        components.scheme = PrizeAPI.scheme
+        components.host = PrizeAPI.host
+        components.path = PrizeAPI.path + "/\(part)" + "/\(year)"
+        
+        return components
+    }
+}
+
