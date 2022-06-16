@@ -12,6 +12,7 @@ target 'SCON_iOS' do
   pod 'JJFloatingActionButton'
   pod 'Kingfisher'
   pod 'ImageSlideshow', '~> 1.9.0'
+  pod 'Alamofire'
 
 #  pod 'lottie-ios'
 #  pod 'Firebase/Auth'

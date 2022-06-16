@@ -11,6 +11,8 @@
 		6C061924280D4B97000796DC /* PrizeList:id=2,year=2019.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C061920280D4B97000796DC /* PrizeList:id=2,year=2019.json */; };
 		6C061925280D4B97000796DC /* PrizeList:id=2,year=2021.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C061921280D4B97000796DC /* PrizeList:id=2,year=2021.json */; };
 		6C061926280D4B97000796DC /* PrizeList:id=2,year=2020.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C061922280D4B97000796DC /* PrizeList:id=2,year=2020.json */; };
+		6C4EB428285AD65000EE749D /* PrizeListRepostiory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4EB427285AD65000EE749D /* PrizeListRepostiory.swift */; };
+		6C4EB42D285AD88F00EE749D /* PrizeTeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4EB42C285AD88F00EE749D /* PrizeTeamList.swift */; };
 		6C7C1C592802F09A00658058 /* ContestYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C1C582802F09A00658058 /* ContestYear.swift */; };
 		6C7C1C5C2802F14400658058 /* ContestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C1C5B2802F14400658058 /* ContestList.swift */; };
 		6C7C1C802803275800658058 /* PrizeList:id=0,year=2021.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C7C1C7F2803275800658058 /* PrizeList:id=0,year=2021.json */; };
@@ -59,6 +61,8 @@
 		6C061921280D4B97000796DC /* PrizeList:id=2,year=2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2021.json"; path = "../../../../../../Downloads/json 진짜찐최종본/PrizeList:id=2,year=2021.json"; sourceTree = "<group>"; };
 		6C061922280D4B97000796DC /* PrizeList:id=2,year=2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "PrizeList:id=2,year=2020.json"; path = "../../../../../../Downloads/json 진짜찐최종본/PrizeList:id=2,year=2020.json"; sourceTree = "<group>"; };
 		6C143CD927E5A95700E833DE /* SCON_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCON_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4EB427285AD65000EE749D /* PrizeListRepostiory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeListRepostiory.swift; sourceTree = "<group>"; };
+		6C4EB42C285AD88F00EE749D /* PrizeTeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeTeamList.swift; sourceTree = "<group>"; };
 		6C7C1C582802F09A00658058 /* ContestYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestYear.swift; sourceTree = "<group>"; };
 		6C7C1C5B2802F14400658058 /* ContestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestList.swift; sourceTree = "<group>"; };
 		6C7C1C5E280321F100658058 /* PrizeList:id=0,year=2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "PrizeList:id=0,year=2021.json"; sourceTree = "<group>"; };
@@ -145,12 +149,44 @@
 			path = SCON_iOS;
 			sourceTree = "<group>";
 		};
-		6C7C1C5A2802F0AE00658058 /* StructData */ = {
+		6C4EB426285AD50A00EE749D /* Reporitory */ = {
+			isa = PBXGroup;
+			children = (
+				6C4EB427285AD65000EE749D /* PrizeListRepostiory.swift */,
+			);
+			path = Reporitory;
+			sourceTree = "<group>";
+		};
+		6C4EB429285AD84700EE749D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6C4EB42A285AD86F00EE749D /* JsonFetch */ = {
 			isa = PBXGroup;
 			children = (
 				6C7C1C582802F09A00658058 /* ContestYear.swift */,
 				6C7C1C5B2802F14400658058 /* ContestList.swift */,
 				6C7C1C8B28032B6200658058 /* PrizeList.swift */,
+			);
+			path = JsonFetch;
+			sourceTree = "<group>";
+		};
+		6C4EB42B285AD87600EE749D /* ServerFetch */ = {
+			isa = PBXGroup;
+			children = (
+				6C4EB42C285AD88F00EE749D /* PrizeTeamList.swift */,
+			);
+			path = ServerFetch;
+			sourceTree = "<group>";
+		};
+		6C7C1C5A2802F0AE00658058 /* StructData */ = {
+			isa = PBXGroup;
+			children = (
+				6C4EB42B285AD87600EE749D /* ServerFetch */,
+				6C4EB42A285AD86F00EE749D /* JsonFetch */,
 			);
 			path = StructData;
 			sourceTree = "<group>";
@@ -226,6 +262,8 @@
 		FCC2C8FC28015BBF0098B865 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				6C4EB429285AD84700EE749D /* New Group */,
+				6C4EB426285AD50A00EE749D /* Reporitory */,
 				6C7C1C5A2802F0AE00658058 /* StructData */,
 				FCC2C8FD28015BBF0098B865 /* Home */,
 				FCC2C90328015BBF0098B865 /* Category */,
@@ -337,6 +375,8 @@
 			dependencies = (
 			);
 			name = SCON_iOS;
+			packageProductDependencies = (
+			);
 			productName = SCON_iOS;
 			productReference = 6C143CD927E5A95700E833DE /* SCON_iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -366,6 +406,8 @@
 				Base,
 			);
 			mainGroup = 6C143CD027E5A95700E833DE;
+			packageReferences = (
+			);
 			productRefGroup = 6C143CDA27E5A95700E833DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -459,6 +501,7 @@
 				FCC2C93028015BBF0098B865 /* WorkCollectionViewCell.swift in Sources */,
 				6C7C1C5C2802F14400658058 /* ContestList.swift in Sources */,
 				FCC2C93728015BBF0098B865 /* DetailViewController.swift in Sources */,
+				6C4EB428285AD65000EE749D /* PrizeListRepostiory.swift in Sources */,
 				FCC2C93B28015BBF0098B865 /* SceneDelegate.swift in Sources */,
 				FCC2C93328015BBF0098B865 /* WebViewController.swift in Sources */,
 				FCC2C92C28015BBF0098B865 /* CategoryDetailViewController.swift in Sources */,
@@ -468,6 +511,7 @@
 				6C7C1C8C28032B6200658058 /* PrizeList.swift in Sources */,
 				FCC2C93828015BBF0098B865 /* EmailLoginViewController.swift in Sources */,
 				FCC2C93228015BBF0098B865 /* CategoryViewController.swift in Sources */,
+				6C4EB42D285AD88F00EE749D /* PrizeTeamList.swift in Sources */,
 				6C7C1C592802F09A00658058 /* ContestYear.swift in Sources */,
 				FCC2C94828015BBF0098B865 /* AppDelegate.swift in Sources */,
 				FCC2C92928015BBF0098B865 /* HomeViewController.swift in Sources */,

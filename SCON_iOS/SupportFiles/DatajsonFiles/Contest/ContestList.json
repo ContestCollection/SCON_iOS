@@ -18,3 +18,8 @@
     ]
     
 }
+
+http:~~?
+part=IT
+part=IT&year=2020
+part=IT&year=2020&id=0

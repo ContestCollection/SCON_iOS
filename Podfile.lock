@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.6.1)
   - ImageSlideshow (1.9.2):
     - ImageSlideshow/Core (= 1.9.2)
   - ImageSlideshow/Core (1.9.2)
@@ -10,6 +11,7 @@ PODS:
   - youtube-ios-player-helper (1.0.4)
 
 DEPENDENCIES:
+  - Alamofire
   - ImageSlideshow (~> 1.9.0)
   - JJFloatingActionButton
   - Kingfisher
@@ -18,6 +20,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - ImageSlideshow
     - JJFloatingActionButton
     - Kingfisher
@@ -26,6 +29,7 @@ SPEC REPOS:
     - youtube-ios-player-helper
 
 SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
   ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
   JJFloatingActionButton: fdc3aefb0f28f04d0f988fa25d5fac97028a9ea7
   Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
@@ -33,6 +37,6 @@ SPEC CHECKSUMS:
   Tabman: 447a50447ed2869c39ab3b1a779327e43e067c4e
   youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
 
-PODFILE CHECKSUM: c4077ecd8a94dc6646654d7a1b92bdea163f6aef
+PODFILE CHECKSUM: 0f1203868f8c1d669ebfbfeb767f66c1dca9d187
 
 COCOAPODS: 1.11.3
